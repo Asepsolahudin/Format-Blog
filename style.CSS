@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+	}
+body{
+	background-image:url(Images/splash.jpg);
+	}
+#wrapper{
+	padding : 50px 100px;
+	width : 0 auto;
+	margin:0 auto;
+	overflow:hidden;
+	}
+#Sosial{
+	width:50px; 
+	height:150px; 
+	position:fixed; 
+	background-color : orange;
+	left:0; 
+	top:250px;
+	color : Blue;
+	}
+#Sosial label,ul{
+	padding-left :10px;
+ }
+#header{
+	width : 100%;
+	height: 150px;
+	background-image:url(Images/h_left.jpg);
+	margin-bottom : 10px;
+	}
+#header img{
+	float : left;
+	width : 300px;
+	height : 150px;
+	}
+#menu{
+	float :right;
+	list-style : none;
+	margin-top : 50px;
+	margin-right : 10px;
+	}
+#menu li{
+	display : inline;
+	}
+#menu li a{
+	border-right : 1px dashed #aeb59c;
+	padding:5px 10px;
+	color : orange;
+	}
+#Panel_Kontrol{
+	padding : 10px;
+	background : url(Images/TRepeat.jpg);
+	margin-bottom : 10px;
+	overflow : hidden;
+	}
+#Logo{
+	color : yellow;
+	float : left;
+	margin-left : 10px;
+	}
+#Bahasa{
+	float : right;
+	color : yellow;
+	margin-right : 10px;
+	}
+#Kolom{
+	margin : 50px 10px;
+	background : white;
+	height : 100%;
+	overflow : hidden;
+	}
+#Kolom1{
+	width : 30%;
+	height: 100%;
+	float : left;
+	padding : 5px;
+	}
+#header_kolom1{
+	background : url(Images/TRepeat.jpg);
+	width : 100%;
+	height : 50px;
+	color : yellow;
+	padding : 10px;
+	margin-bottom : 5px;
+	}
+#Kolom1 img{
+	float : left;
+	width : 100px;
+	height :100px;
+	}
+#profil{
+	list-style : none;
+	padding-left : 50%;
+}
+#Kolom2{
+	width : 61%;
+	height : 100%;
+	float : right;
+	padding : 5px 27px;
+	list-style : none;
+	}
+#Kolom2 ul{
+	list-style : none; 
+}
+#Kolom2 ul li{
+	display : inline;
+}
+#Kolom2 ul li {
+	float : left;
+	padding:10px 5px;
+}
+
+#header_kolom2{
+	background : url(Images/TRepeat.jpg);
+	width : 100%;
+	height : 50px;
+	color : yellow;
+	padding : 10px;
+	margin-bottom : 5px;
+	}
+#header_kolom2 h3{
+	float : left;
+	}
+#header_kolom2 ul{
+	float : right;
+	list-style : none;
+	margin-right : 0;
+	}
+#header_kolom2 ul li{
+	display : inline;
+	}
+#header_kolom2 ul li a{
+	color : orange;
+	border-right : 1px dashed #aeb59c;
+	padding:5px 10px;
+}
+#footer{
+	color : yellow;
+	text-align: center;
+	}
+marquee{
+	color: yellow;
+}
